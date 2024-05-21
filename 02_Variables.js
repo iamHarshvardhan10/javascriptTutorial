@@ -18,3 +18,17 @@ console.log(firstName);
 // change the values of same variable
 firstName = "Name change to Harsh"
 console.log(firstName)
+
+
+// practical
+
+var variable1 = 'Javascript practice'
+console.log(variable1)
+
+var variable2 = 'Javascript Practice 2 '
+console.log(variable2)
+
+//withour variable var
+
+variable1 = 'javascript tut'
+console.log(variable1)
