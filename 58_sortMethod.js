@@ -24,7 +24,7 @@ console.log(storeOneMore)
 const numbered = [1,4,6565,5475,335,545,4]
 
 // const numbers = [5,1,3,2,4]
-const store = numbers.sort((a,b) => {
+const stored = numbers.sort((a,b) => {
     return b - a;
 })
 console.log(store)
