@@ -20,3 +20,17 @@ console.log(lastIndex)
 
 console.log(firstName[firstName.length-1])
 
+
+// string indexing
+
+const string1 = 'Harshvardhan'
+console.log(string1[0])
+console.log(string1[1])
+
+
+// finding the length of string 
+console.log(string1.length)
+
+// finding last char of string
+
+console.log(string1[string1.length - 1])
