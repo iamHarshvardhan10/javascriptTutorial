@@ -1,48 +1,65 @@
-// Types of string methods
+// slice method in javascript
 
-// trim()
-// toUppercase()
-// toLowecase()
-// slice()
-
-
-
-let firstName = '  haRsh  '
-console.log(firstName)
-console.log(firstName.length)
-
-// trim()
-
-let trimString = firstName.trim()
-console.log(trimString)
-console.log(trimString.length)
+let a = 'harsh bhosale'
+console.log(a)
+console.group(a.length)
+console.log(a.slice(0,5))
+console.log(a.slice(-1,0))
 
 
-// toUppercase()
+// replace in javascript
 
-let uppercase = firstName.toUpperCase()
-console.log(uppercase)
+let replaceMethod = 'Hello Everyone Good Morning'
 
-// toLowercase
-let toLowecase = firstName.toLowerCase()
-console.log(toLowecase);
+let replacing = replaceMethod.replace('Morning','Evening')
+console.log(replacing)
+
+// uppercase in javascript
+
+let string1 = 'harsh'
+let uppercasing = string1.toUpperCase()
+console.log(uppercasing)
+
+// lowercase in javascript
+
+let string2 = 'HARSH'
+let lowerCasing = string2.toLowerCase()
+console.log(lowerCasing)
 
 
-// slice()
+// concat method
+let string3 = 'Harshvardhan'
+let string4 = ' Bhosale'
 
-// example 
-// const sliceWord = firstName.slice(firstIndex , lastIndex)
+console.log(string3.concat(string4))
 
-const newWord = "ahjfdjoie"
-const sliceWord = newWord.slice(0,3);
-console.log(sliceWord)
+// trim method
 
-const tolastIndex = newWord.slice(0)
-console.log(tolastIndex)
+let str = '  Harsh  '
+console.log(str.length)
 
-const tomiddle = newWord.slice(2,6);
-console.log(tomiddle)
+let trimMethod = str.trim()
+console.log(trimMethod)
+console.log(trimMethod.length)
 
+
+// split in javascript
+
+let str1 = 'Harsh Bhosale 22 mern developer'
+let splitMethod = str1.split(' ')
+console.log(splitMethod)
+
+
+// charAt
+
+let str2 = 'harsh vardhan bhosale'
+console.log(str2.charAt(0))
+
+
+// charCodeAt
+
+let str3  = 'Harshvardhan Bhosale'
+console.log(str3.charCodeAt(4))
 
 
 
