@@ -27,30 +27,61 @@
 
 // using switch statement
 
-let days = +prompt();
+// let days = +prompt();
 
-switch(days){
-    case 0:
-        console.log("Its sunday");
-        break;
-    case 1:
-        console.log("Its monday");
+// switch(days){
+//     case 0:
+//         console.log("Its sunday");
+//         break;
+//     case 1:
+//         console.log("Its monday");
+//         break;
+//     case 2:
+//         console.log("Its Tuesday")
+//         break;
+//     case 3:
+//         console.log("Its Wen")
+//         break;
+//     case 4:
+//         console.log("it thurday")
+//         break;
+//     case 5:
+//         console.log("its friday")
+//         break;
+//     case 6:
+//         console.log("its saturaday")
+//         break;
+//     default:
+//         console.log('wrong number')
+// }
+
+
+
+let day = 3 
+let dayName ;
+switch(day){
+    case 1 :
+        dayName = "monday"
         break;
     case 2:
-        console.log("Its Tuesday")
+        dayName = 'TuesDay'
         break;
     case 3:
-        console.log("Its Wen")
+        dayName = 'Wen'
         break;
     case 4:
-        console.log("it thurday")
+        dayName = 'Thurday'
         break;
     case 5:
-        console.log("its friday")
+        dayName = 'Friday'
         break;
     case 6:
-        console.log("its saturaday")
+        dayName = 'sat'
         break;
     default:
-        console.log('wrong number')
+        dayName = 'wrong number'
+
+
 }
+
+console.log(dayName)
