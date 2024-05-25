@@ -46,3 +46,34 @@ console.log(array2)
 
 array2 = [...array1 , "harshvardhan", "bhosale"]
 console.log(array2)
+
+
+
+// cloning of array
+
+const myArray = ['array1','array2']
+myArray.push('array3')
+console.log(`myArray is ${myArray}`,myArray)
+console.log(myArray)
+
+// using slice operator
+
+const myArray1 = myArray.slice(0)
+console.log(`myArray1 is ${myArray1}`,myArray1)
+
+
+// using concat operator
+
+const emptyArray = []
+
+const cloneArray = emptyArray.concat(myArray,myArray1)
+console.log('clone array is',cloneArray)
+
+// spread operator 
+
+const spreadArray = [...myArray,...array1,...array2,...cloneArray,...emptyArray]
+console.log(spreadArray)
+
+
+
+
